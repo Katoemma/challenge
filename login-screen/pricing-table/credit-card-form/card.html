@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card details</title>
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <form action="">
+        <img src="assets/channels.png" alt="image">
+        <div class="inputs">
+            <label for="card-num">Card Number</label>
+            <input type="text" name="card-num" placeholder="1111 2222 3333 4444">
+            <label for="holder">Card holder</label>
+            <input type="text" name="holder">
+            <div class="dates">
+                <label for="month">Month</label>
+                <Select id="month">
+                    <option value="january">01</option>
+                    <option value="feb">02</option>
+                    <option value="march">03</option>
+                    <option value="april">04</option>
+                    <option value="may">05</option>
+                    <option value="june">06</option>
+                    <option value="july">07</option>
+                    <option value="august">08</option>
+                    <option value="sept">09</option>
+                    <option value="oct">10</option>
+                    <option value="nov">11</option>
+                    <option value="Dec">12</option>
+                </Select>
+                <label for="year">Year</label>
+                <select name="year" id="year">
+                    <option value="1">2022</option>
+                    <option value="2">2023</option>
+                    <option value="3">2024</option>
+                    <option value="4">2024</option>
+                    <option value="5">2026</option>
+                </select>
+            </div>
+            <label for="CVV">CVV</label>
+            <input name="CVV">
+        </div>
+        <button class="submit-btn">Submit</button>
+    </form>
+</body>
+</html>
